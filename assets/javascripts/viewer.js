@@ -1,11 +1,11 @@
 (function(){
   let imgSources = [];
   const imgSourcesMin = 1;
-  const imgSourcesMax = 12;
+  const imgSourcesMax = 349;
   for (i = imgSourcesMin; i < imgSourcesMax + 1; i++) {
     imgSources.push({
       type: 'image',
-      url:  `../chheh/TJTST1_${('00' + i).slice(-3)}.jpg`
+      url:  `../chheh/1973EmbreeTaiengSutian_Page_${('00' + i).slice(-3)}.jpg`
     })
   }
   const viewer = OpenSeadragon({
